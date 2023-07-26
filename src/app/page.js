@@ -18,7 +18,7 @@ export default function Home() {
     <main className="bg-white px-10 md:px-20 lg:px-40" >
       <section className=" min-h-screen">
         <nav className="py-10 mb-12 flex justify-between">
-          <h1 className="text-xl font-burtons">Bear Programing</h1>
+          <h1 className="text-xl font-burtons">Bienvenido</h1>
           <ul className="flex items-center">
             <li>
               <BsFillMoonStarsFill />
@@ -28,7 +28,7 @@ export default function Home() {
                 className="bg-gradient-to-r  from-cyan-500 to-teal-500  text-white px-4 py-2 rounded-md ml-8"
                 href="#"
               >
-                Resumen
+                Resumen cv
               </a>
             </li>
           </ul>
@@ -165,6 +165,21 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <footer className="flex justify-center text-center mb-10">
+        <div className=" justify-center">
+          <span className="text-xl">Yuniski</span>
+          
+          <div className="text-3xl flex justify-center gap-16 py-3 text-gray-600 mt-5 mb-5">
+          <AiFillLinkedin />
+          <AiFillGithub />
+          <FaEnvelope />
+          </div>
+
+          <span className=" text-xs ">Code with ❤ for Niki 🐻 </span>
+        </div>
+      </footer>
+
     </main>
   </div>
   );
