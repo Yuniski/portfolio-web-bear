@@ -18,7 +18,7 @@ export default function Home() {
     <main className="bg-white px-10 md:px-20 lg:px-40" >
       <section className=" min-h-screen">
         <nav className="py-10 mb-12 flex justify-between">
-          <h1 className="text-xl font-burtons">Bienvenido</h1>
+          <h1 className="text-xl font-burtons">Bienvenido/a</h1>
           <ul className="flex items-center">
             <li>
               <BsFillMoonStarsFill />
@@ -26,9 +26,8 @@ export default function Home() {
             <li>
               <a
                 className="bg-gradient-to-r  from-cyan-500 to-teal-500  text-white px-4 py-2 rounded-md ml-8"
-                href="#"
-              >
-                Resumen cv
+                href="/Yuniski-Duran-CV.pdf" download>
+                Resumen CV
               </a>
             </li>
           </ul>
@@ -45,12 +44,21 @@ export default function Home() {
           </p>
         </div>
         <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-          <AiFillLinkedin />
-          <AiFillGithub />
-          <FaEnvelope />
+          <a href="https://www.linkedin.com/in/yuniskiduran/" target="_blank"><AiFillLinkedin /></a>
+          <a href="https://github.com/Yuniski" target="_blank"><AiFillGithub /></a>
+          <a href="mailto:yuniski24@gmail.com" target="_blank"><FaEnvelope /></a>
+          
         </div>
         <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96">
           <Image src={deved} className="cover" alt="Photo of Yuniski" />
+        </div>
+
+        <div className=" flex justify-center">
+        <a
+                className=" bg-gradient-to-r  from-cyan-500 to-teal-500  text-white px-4 py-2 rounded-md mt-10 mb-10"
+                href="/Yuniski-Duran-CV.pdf" download>
+                Descarga mi CV
+              </a>
         </div>
       </section>
 
@@ -75,6 +83,7 @@ export default function Home() {
               height={100}
               alt="# code image"
               className="inline justify-center"
+              
             />
             <h3 className="text-lg font-medium pt-8 pb-2">Coding for you</h3>
             <p className="py-2">
@@ -149,7 +158,8 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
           <div className="basis-1/3 flex-1">
-            <Image src={web0} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" alt="todoapp" />
+            <a href="https://todo-app-react-tailwind-bear.netlify.app" target="_blank"><Image src={web0} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" alt="todoapp" /></a>
+            
           </div>
           <div className="basis-1/3 flex-1">
             <Image src={web1} className="rounded-lg object-cover" width={"100%"} height={"100%"} layout="responsive" alt="card" />
@@ -171,9 +181,9 @@ export default function Home() {
           <span className="text-xl">Yuniski</span>
           
           <div className="text-3xl flex justify-center gap-16 py-3 text-gray-600 mt-5 mb-5">
-          <AiFillLinkedin />
-          <AiFillGithub />
-          <FaEnvelope />
+          <a href="https://www.linkedin.com/in/yuniskiduran/" target="_blank"><AiFillLinkedin /></a>
+          <a href="https://github.com/Yuniski" target="_blank"><AiFillGithub /></a>
+          <a href="mailto:yuniski24@gmail.com" target="_blank"><FaEnvelope /></a>
           </div>
 
           <span className=" text-xs ">Code with ❤ for Niki 🐻 </span>
