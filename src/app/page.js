@@ -18,7 +18,7 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons">Bienvenido/a</h1>
+            <h1 className="text-xl font-burtons">Portfolio</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill />
@@ -40,9 +40,7 @@ export default function Home() {
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">Developer and QA</h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              nesciunt libero quam necessitatibus incidunt placeat nulla
-              pariatur, officiis optio eaque?
+            Welcome to my corner on the web! I'm Yuniski, a passionate frontend developer and a quality. My mission is to breathe life into ideas through captivating interfaces and to ensure that every detail functions seamlessly.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
@@ -66,7 +64,7 @@ export default function Home() {
               href="/Yuniski-Duran-CV.pdf"
               download
             >
-              Descarga mi CV
+              Download CV
             </a>
           </div>
         </section>
@@ -75,17 +73,11 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1">Skills</h3>
             <p className="text-md py-2 leading-8 text-gray-800">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-              perspiciatis deleniti ipsa non, a corrupti quod. Amet est voluptas
-              quia nobis facere sit molestiae modi, non qui ullam a maiores!
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic
-              praesentium animi, odio saepe libero magni ullam perspiciatis
-              culpa obcaecati? Animi fugiat similique esse nostrum laboriosam
-              facere ut voluptas quae eum?
+            Throughout my professional journey, I've blended creativity with technical skills to create visually appealing and highly functional websites. Whether it's transforming concepts into code or rigorously testing to ensure excellence, my focus is on exceeding expectations and delivering solutions that stand out.
             </p>
           </div>
-          <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+          <div className=" flex lg:flex gap-10">
+            <div className="flex-1 text-center shadow-lg p-10 rounded-xl my-10">
               <Image
                 src={code}
                 width={100}
@@ -93,14 +85,11 @@ export default function Home() {
                 alt="# code image"
                 className="inline justify-center"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">Coding for you</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">Code</h3>
               <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita ullam doloremque mollitia recusandae! Quasi, recusandae
-                quam? Ea unde quisquam alias asperiores, doloremque nisi dolor
-                libero nihil ratione. Harum, placeat pariatur!
+                Fueled by a problem-solving passion and solid programming logic, I've mastered diverse technologies to transform ideas into reality. My adaptable skills make new languages a breeze, while my core strengths lie in these well-versed technologies.
               </p>
-              <h4 className="py-4 text-teal-600">Lenguajes y Herramientas</h4>
+              <h4 className="py-4 text-teal-600">Tools</h4>
               <ul className="text-gray-800 py-1">
                 <li>React.js</li>
                 <li>Next.js</li>
@@ -109,7 +98,7 @@ export default function Home() {
                 <li>MySQL</li>
               </ul>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="flex-1 text-center shadow-lg p-10 rounded-xl my-10">
               <Image
                 src={qa}
                 width={100}
@@ -117,23 +106,20 @@ export default function Home() {
                 alt="# code image"
                 className="inline justify-center"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">Coding for you</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">QA</h3>
               <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita ullam doloremque mollitia recusandae! Quasi, recusandae
-                quam? Ea unde quisquam alias asperiores, doloremque nisi dolor
-                libero nihil ratione. Harum, placeat pariatur!
+                Detail, passion, and scalability define my Quality Control philosophy. My meticulous nature ensures thorough examination of every aspect, pursuing excellence in all project facets. I'm fervently dedicated to delivering high-quality functionality
               </p>
-              <h4 className="py-4 text-teal-600">Lenguajes y Herramientas</h4>
+              <h4 className="py-4 text-teal-600">Tools</h4>
               <ul className="text-gray-800 py-1">
-                <li>React.js</li>
-                <li>Next.js</li>
-                <li>Node.js</li>
-                <li>Tailwind</li>
-                <li>MySQL</li>
+                <li>Exploratory Testing</li>
+                <li>Test Case Scenarios</li>
+                <li>Bugs Report</li>
+                <li>Automation (Selenium)</li>
+                <li>Performance Testing (JMeter)</li>
               </ul>
             </div>
-            <div className="text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="flex-1 text-center shadow-lg p-10 rounded-xl my-10">
               <Image
                 src={consulting}
                 width={100}
@@ -141,20 +127,16 @@ export default function Home() {
                 alt="# code image"
                 className="inline justify-center"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">Coding for you</h3>
+              <h3 className="text-lg font-medium pt-8 pb-2">Service</h3>
               <p className="py-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Expedita ullam doloremque mollitia recusandae! Quasi, recusandae
-                quam? Ea unde quisquam alias asperiores, doloremque nisi dolor
-                libero nihil ratione. Harum, placeat pariatur!
+                My approach extends beyond technical expertise, encompassing a robust array of soft skills. Accessibility is the cornerstone, fostering fluid and open interactions. Proficiency in problem-solving bolsters my commitment to delivering effective solutions.
               </p>
-              <h4 className="py-4 text-teal-600">Lenguajes y Herramientas</h4>
+              <h4 className="py-4 text-teal-600">Tools</h4>
               <ul className="text-gray-800 py-1">
-                <li>React.js</li>
-                <li>Next.js</li>
-                <li>Node.js</li>
-                <li>Tailwind</li>
-                <li>MySQL</li>
+                <li>Good Communication</li>
+                <li>Accesible</li>
+                <li>Teamwork</li>
+                <li>Good Vibes</li>
               </ul>
             </div>
           </div>
