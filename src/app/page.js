@@ -46,13 +46,13 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 ">
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
-              Yuniski Durán
+              Yuniski Duran
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl dark:text-gray-300">
               Developer and QA
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-300">
-              Welcome to my corner on the web! I'm Yuniski, a passionate
+              Welcome to my corner on the web! I am Yuniski, a passionate
               frontend developer and a quality tester. My goal is to bring ideas
               to life by creating engaging interfaces and making sure that every
               little detail works seamlessly.
@@ -86,10 +86,10 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white">Skills</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
-              Throughout my professional journey, I've blended creativity with
+              Throughout my professional journey, I have blended creativity with
               technical skills to create visually appealing and highly
-              functional websites. Whether it's transforming concepts into code
-              or rigorously testing to ensure excellence, my focus is on
+              functional websites. Whether it&apos;s transforming concepts into
+              code or rigorously testing to ensure excellence, my focus is on
               exceeding expectations and delivering solutions that stand out.
             </p>
           </div>
@@ -107,7 +107,7 @@ export default function Home() {
               </h3>
               <p className="py-2 dark:text-gray-300">
                 Fueled by a problem-solving passion and solid programming logic,
-                I've mastered diverse technologies to transform ideas into
+                I&apos;ve mastered diverse technologies to transform ideas into
                 reality. My adaptable skills make new languages a breeze, while
                 my core strengths lie in these well-versed technologies.
               </p>
@@ -134,8 +134,9 @@ export default function Home() {
               <p className="py-2 dark:text-gray-300">
                 Detail, passion, and scalability define my Quality Control
                 philosophy. My meticulous nature ensures thorough examination of
-                every aspect, pursuing excellence in all project facets. I'm
-                fervently dedicated to delivering high-quality functionality
+                every aspect, pursuing excellence in all project facets.
+                I&apos;m fervently dedicated to delivering high-quality
+                functionality
               </p>
               <h4 className="py-4 text-teal-600">Tools</h4>
               <ul className="text-gray-800 py-1 dark:text-gray-400">
