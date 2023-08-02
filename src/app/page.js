@@ -23,19 +23,19 @@ export default function Home() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-cyan-950">
+      <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className=" min-h-screen">
           <nav className="py-10 mb-12 flex justify-between">
-            <h1 className="text-xl font-burtons">Portfolio</h1>
+            <h1 className="text-xl font-burtons text-cyan-950">Welcome</h1>
             <ul className="flex items-center">
               <li>
                 <button onClick={handleDarkMode}>
-                  <BsFillMoonStarsFill className="cursor-pointer text-2xl" />
+                  <BsFillMoonStarsFill className="cursor-pointer text-2xl dark:text-yellow-100" />
                 </button>
               </li>
               <li>
                 <a
-                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 hover:bg-red-200"
+                  className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8 "
                   href="/Yuniski-Duran-CV.pdf"
                   download
                 >
@@ -48,12 +48,14 @@ export default function Home() {
             <h2 className="text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Yuniski Durán
             </h2>
-            <h3 className="text-2xl py-2 md:text-3xl">Developer and QA</h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto">
+            <h3 className="text-2xl py-2 md:text-3xl dark:text-gray-300">
+              Developer and QA
+            </h3>
+            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto dark:text-gray-300">
               Welcome to my corner on the web! I'm Yuniski, a passionate
-              frontend developer and a quality. My mission is to breathe life
-              into ideas through captivating interfaces and to ensure that every
-              detail functions seamlessly.
+              frontend developer and a quality tester. My goal is to bring ideas
+              to life by creating engaging interfaces and making sure that every
+              little detail works seamlessly.
             </p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
@@ -82,8 +84,8 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1">Skills</h3>
-            <p className="text-md py-2 leading-8 text-gray-800">
+            <h3 className="text-3xl py-1 dark:text-white">Skills</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-300">
               Throughout my professional journey, I've blended creativity with
               technical skills to create visually appealing and highly
               functional websites. Whether it's transforming concepts into code
@@ -92,7 +94,7 @@ export default function Home() {
             </p>
           </div>
           <div className=" flex lg:flex gap-10">
-            <div className="flex-1 text-center shadow-lg p-10 rounded-xl my-10">
+            <div className=" flex-1 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-cyan-950">
               <Image
                 src={code}
                 width={100}
@@ -100,15 +102,17 @@ export default function Home() {
                 alt="# code image"
                 className="inline justify-center"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">Code</h3>
-              <p className="py-2">
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
+                Code
+              </h3>
+              <p className="py-2 dark:text-gray-300">
                 Fueled by a problem-solving passion and solid programming logic,
                 I've mastered diverse technologies to transform ideas into
                 reality. My adaptable skills make new languages a breeze, while
                 my core strengths lie in these well-versed technologies.
               </p>
               <h4 className="py-4 text-teal-600">Tools</h4>
-              <ul className="text-gray-800 py-1">
+              <ul className="text-gray-800 py-1 dark:text-gray-400">
                 <li>React.js</li>
                 <li>Next.js</li>
                 <li>Node.js</li>
@@ -116,7 +120,7 @@ export default function Home() {
                 <li>MySQL</li>
               </ul>
             </div>
-            <div className="flex-1 text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="flex-1 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-cyan-950">
               <Image
                 src={qa}
                 width={100}
@@ -124,15 +128,17 @@ export default function Home() {
                 alt="# code image"
                 className="inline justify-center"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">QA</h3>
-              <p className="py-2">
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
+                QA
+              </h3>
+              <p className="py-2 dark:text-gray-300">
                 Detail, passion, and scalability define my Quality Control
                 philosophy. My meticulous nature ensures thorough examination of
                 every aspect, pursuing excellence in all project facets. I'm
                 fervently dedicated to delivering high-quality functionality
               </p>
               <h4 className="py-4 text-teal-600">Tools</h4>
-              <ul className="text-gray-800 py-1">
+              <ul className="text-gray-800 py-1 dark:text-gray-400">
                 <li>Exploratory Testing</li>
                 <li>Test Case Scenarios</li>
                 <li>Bugs Report</li>
@@ -140,7 +146,7 @@ export default function Home() {
                 <li>Performance Testing (JMeter)</li>
               </ul>
             </div>
-            <div className="flex-1 text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="flex-1 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-cyan-950">
               <Image
                 src={consulting}
                 width={100}
@@ -148,8 +154,10 @@ export default function Home() {
                 alt="# code image"
                 className="inline justify-center"
               />
-              <h3 className="text-lg font-medium pt-8 pb-2">Service</h3>
-              <p className="py-2">
+              <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">
+                Service
+              </h3>
+              <p className="py-2 dark:text-gray-300">
                 My approach extends beyond technical expertise, encompassing a
                 robust array of soft skills. Accessibility is the cornerstone,
                 fostering fluid and open interactions. Proficiency in
@@ -157,7 +165,7 @@ export default function Home() {
                 solutions.
               </p>
               <h4 className="py-4 text-teal-600">Tools</h4>
-              <ul className="text-gray-800 py-1">
+              <ul className="text-gray-800 py-1 dark:text-gray-400">
                 <li>Good Communication</li>
                 <li>Accesible</li>
                 <li>Teamwork</li>
@@ -168,7 +176,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1">Portafolio</h3>
+            <h3 className="text-3xl py-1 dark:text-white">Portafolio</h3>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1">
@@ -247,7 +255,7 @@ export default function Home() {
         </section>
         <footer className="flex justify-center text-center p-10">
           <div className=" justify-center">
-            <span className="text-xl">Yuniski</span>
+            <span className="text-xl dark:text-white">Yuniski</span>
             <div className="text-3xl flex justify-center gap-16 py-3 text-gray-600 mt-5 mb-5">
               <a
                 href="https://www.linkedin.com/in/yuniskiduran/"
@@ -262,7 +270,9 @@ export default function Home() {
                 <FaEnvelope />
               </a>
             </div>
-            <span className=" text-xs ">Code with ❤ for Niki 🐻 </span>
+            <span className=" text-xs dark:text-gray-300">
+              Code with ❤ for Niki 🐻{" "}
+            </span>
           </div>
         </footer>
       </main>
