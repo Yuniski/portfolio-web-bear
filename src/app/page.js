@@ -93,8 +93,8 @@ export default function Home() {
               exceeding expectations and delivering solutions that stand out.
             </p>
           </div>
-          <div className=" flex lg:flex gap-10">
-            <div className=" flex-1 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-cyan-950">
+          <div className="flex flex-col md:flex-row gap-10">
+            <div className=" flex-1  text-center shadow-lg p-10 rounded-xl my-10 dark:bg-cyan-950">
               <Image
                 src={code}
                 width={100}
